@@ -11,15 +11,14 @@ namespace Q2ImplementQueueUsingStacks
             q.Enqueue('a');
             q.Enqueue('b');
             q.Enqueue('c');
-            Console.WriteLine($"{q.Dequeue()} ");
+            Console.WriteLine($"{q.Dequeue()} "); //a
             q.Enqueue('d');
-            Console.WriteLine(q.Count());
-            Console.WriteLine($"{q.Dequeue()} ");
-            Console.WriteLine(q.Count());
+            Console.WriteLine(q.Count()); //3
+            Console.WriteLine($"{q.Dequeue()} "); //b
+            Console.WriteLine(q.Count()); //2
 
-            Console.Write($"{q.Dequeue()} ");
-            Console.Write($"{q.Dequeue()} ");
-            Console.Write($"{q.Dequeue()} ");
+            Console.Write($"{q.Dequeue()} "); //c
+            Console.Write($"{q.Dequeue()} "); //d
         }
 
         public class Queue
