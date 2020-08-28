@@ -11,10 +11,10 @@ namespace Q3StackUsingQs
             s.Push('a');
             s.Push('b');
             s.Push('c');
-            Console.WriteLine(s.Size());
-            Console.WriteLine(s.Pop());
+            Console.WriteLine(s.Size()); //3
+            Console.WriteLine(s.Pop()); //c
             s.Push('d');
-            Console.WriteLine(s.Pop());
+            Console.WriteLine(s.Pop()); //d
         }
 
         public class Stack
