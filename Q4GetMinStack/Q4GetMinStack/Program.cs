@@ -36,6 +36,7 @@ namespace Q4GetMinStack
             public Stack mainStack;
             public Stack sortedStack;
 
+            // Constructor
             public MyStack()
             {
                 mainStack = new Stack();
