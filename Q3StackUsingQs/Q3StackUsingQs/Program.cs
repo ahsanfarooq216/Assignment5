@@ -32,7 +32,7 @@ namespace Q3StackUsingQs
                     q1.Enqueue(e);
                 }
             }
-
+            
             public char Pop()
             {
                 if(q1.Count == 0)
